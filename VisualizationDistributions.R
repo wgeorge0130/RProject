@@ -36,7 +36,7 @@ pie = 4*(counter/1000)
 PE = ((abs((pie-3.14)))/3.14)*100
 pieDiff = abs(3.14 - pie)
 library("writexl")
-write_xlsx(df, "C:\\Users\\wgeor_000\\Desktop\\Q3SimulationOutput")
+write_xlsx(df, "C:\\Users\\")
 
 #4
 x1 = runif(1000, min = 0, max = 1)
